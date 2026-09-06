@@ -1,0 +1,148 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    /*background-image: url("../assets/rubber-duck-army-8864776.webp");
+    background-repeat: repeat;
+    background-size: 80px;*/
+    background-color:#FFD801;
+    margin: 0;
+}
+
+
+
+#rubberduckybackground {
+    background-image: url("../assets/rubberducks.jpg");
+    background-repeat: repeat;
+    background-size: 80px;
+    width:100%;
+
+
+    padding-bottom: 2vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#rubberduckybackground h1{
+    color: yellow;
+    font-size: 48px;
+    text-align: center;
+    text-shadow: 1px 1px #000000, 0 0 0.2em rgb(144, 154, 0);
+    margin-bottom: -10px
+
+}
+
+
+#rubberduckybackground p{
+    padding: 20px, 20px;
+    color:rgb(255, 255, 23);
+    text-shadow: 0.5px 0.5px #524600;
+
+}
+
+#rubberduckybackground nav{
+    display: flex;
+    gap: 0.5vw;
+}
+
+#rubberduckybackground nav a{
+    background-color: #FFD801;
+    border-top: 3px solid #fff27a;
+    border-left: 3px solid #fff27a;
+    border-right: 3px solid #8a7000;
+    border-bottom: 3px solid #8a7000;
+
+}
+
+#rubberduckybackground nav a:hover {
+    border-top: 3px solid #8a7000;
+    border-left: 3px solid #8a7000;
+    border-right: 3px solid #fff27a;
+    border-bottom: 3px solid #fff27a;
+}
+
+
+
+.hrduck {
+    margin-bottom:1px;
+    margin-top:1px;
+    border: none;
+    height: 20px;
+    background-image: url("../assets/YellowRubberDucky.jpg");
+    background-size: 20px;
+    background-repeat: repeat;
+    
+}
+
+
+marquee {
+    font-size:35px;
+    width:100%;
+}
+
+
+#div1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 8px;
+
+    font-size: 20px;
+    color:rgb(255, 60, 0);
+    text-shadow:
+    1px 1px 2px rgb(255, 255, 0);
+}
+
+#div1 img{
+    height: 200px;
+    width: 500px;
+}
+
+.fact {
+    border: 5px ridge yellow;
+    background: white;
+    padding: 15px;
+}
+
+.endstuff {
+    display: flex;
+    align-items: center;
+    margin: 8px;
+
+    border: 10px ridge black
+
+
+}
+
+#Creator {
+    background-color: orange;
+    border: 20px ridge yellow;
+}
+
+#Creator img{
+    width: 200px;
+    height: 200px;
+}
+
+.new {
+
+    color:red;
+    font-weight: bold;
+
+}
+
+.counter {
+    background: black;
+    color: lime;
+    font-family: monospace;
+    padding: 5px;
+    width: 95;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+

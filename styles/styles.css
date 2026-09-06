@@ -1,0 +1,51 @@
+
+
+
+#rubberduckybackground {
+    background-image: url("../assets/rubberducks.jpg");
+    background-position: center; 
+    background-size: contain;
+
+    margin-left: -20vw;
+    margin-right: -20vw;
+    padding-bottom: 2vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#rubberduckybackground h1{
+    color: #5c4800;
+    transform:translateY(-2vh);  
+    margin-bottom: 0;
+    font-size: 5vw;
+
+}
+
+#rubberduckybackground nav{
+    display: flex;
+    gap: 5vw;
+}
+
+#rubberduckybackground nav a{
+    font-size: 1.5vw;
+    background-color: #ccae06e8;
+    color: #5c4800;
+    padding: 1vh 2vw;
+    border-radius: 12px;
+    font-weight: bold;
+    border: 2px solid #c9a900;
+    text-decoration: none;
+    box-shadow: 0 0.5vh 0 #c5a600;
+    transition: 0.16s;
+
+}
+
+#rubberduckybackground nav a:hover {
+    background-color: #ffe866;
+    transform: translateY(-0.35vh);
+    box-shadow: 0 0.85vh 0 #c5a600;
+}
+
