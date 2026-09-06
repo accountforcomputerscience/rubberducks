@@ -1,51 +1,69 @@
+body {
+    margin: 0;
+    font-family: 'Brush Script MT', cursive;
+}
 
-
-
-#rubberduckybackground {
-    background-image: url("../assets/rubberducks.jpg");
-    background-position: center; 
-    background-size: contain;
-
-    margin-left: -20vw;
-    margin-right: -20vw;
-    padding-bottom: 2vh;
-
+.navbar {
     display: flex;
-    flex-direction: column;
+    gap:20px;
+    background-color: rgb(255, 170, 0);
+    padding:10px 20px;
+    border-radius: 0px 0px 35px 35px;
+    border: 5px solid rgb(178, 119, 0);
+    box-shadow: 0px 6px rgb(178, 119, 0);
     align-items: center;
-    
+    justify-content:space-between;
 }
 
-#rubberduckybackground h1{
-    color: #5c4800;
-    transform:translateY(-2vh);  
-    margin-bottom: 0;
-    font-size: 5vw;
-
-}
-
-#rubberduckybackground nav{
-    display: flex;
-    gap: 5vw;
-}
-
-#rubberduckybackground nav a{
-    font-size: 1.5vw;
-    background-color: #ccae06e8;
-    color: #5c4800;
-    padding: 1vh 2vw;
-    border-radius: 12px;
-    font-weight: bold;
-    border: 2px solid #c9a900;
+.navbar a{
     text-decoration: none;
-    box-shadow: 0 0.5vh 0 #c5a600;
-    transition: 0.16s;
+}
+
+#title {
+    font-size: 27px;
+    color: rgb(255, 255, 255);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    transition:0.15s;
+}
+
+#title:hover {
+    color: rgb(156, 155, 155);
+    transform:scale(1.07)
+}
+
+.links {
+    display:flex;
+    gap: 5px;
+}
+
+.links span{
+    display:inline-block;
+    border: 5px solid rgb(178, 119, 0);
+    border-radius: 20px;
+    padding:8px 8px;
+    color:rgb(223, 225, 223);
+    background-color: rgb(240, 155, 0);
+    box-shadow: 0px 0px rgb(178, 119, 0);
+    transform: translateY(4px);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+
+.links a{
+    display:inline-block;
+    background-color: rgb(255, 170, 0);
+    border: 5px solid rgb(178, 119, 0);
+    border-radius: 20px;
+    padding:8px 8px;
+    color:rgb(223, 225, 223);
+    transition: 0.2s;
+    box-shadow: 0px 4px rgb(178, 119, 0);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 
 }
 
-#rubberduckybackground nav a:hover {
-    background-color: #ffe866;
-    transform: translateY(-0.35vh);
-    box-shadow: 0 0.85vh 0 #c5a600;
+.links a:hover{
+    transform:translateY(4px);
+    box-shadow: 0px 0px rgb(178, 119, 0);
+    background-color: rgb(224, 204, 22);
 }
-
